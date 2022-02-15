@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="WebSocketVertx" type="Application" factoryName="Application" singleton="false">
+    <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+    <option name="MAIN_CLASS_NAME" value="io.vertx.core.Launcher" />
+    <module name="vertx-websockets" />
+    <option name="PROGRAM_PARAMETERS" value="run com.example.vertx_websockets.MainVerticle --redeploy=**/*.class --launcher-class=io.vertx.core.Launcher" />
+    <method v="2" />
+  </configuration>
+</component>

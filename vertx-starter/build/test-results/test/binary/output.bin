@@ -1,0 +1,43 @@
+^[34m11:30:52.530[m [Test worker] DEBUG [35mc.e.v.TestFuturePromiseExample[m - Started...
+_[34m11:30:52.540[m [Test worker] DEBUG [35mc.e.v.TestFuturePromiseExample[m - Finished...
+n[34m11:30:53.050[m [vert.x-eventloop-thread-0] DEBUG [35mc.e.v.TestFuturePromiseExample[m - Future done!
+g[34m11:30:53.051[m [vert.x-eventloop-thread-0] DEBUG [35mc.e.v.TestFuturePromiseExample[m - Done!
+^[34m11:30:53.093[m [Test worker] DEBUG [35mc.e.v.TestFuturePromiseExample[m - Started...
+_[34m11:30:53.094[m [Test worker] DEBUG [35mc.e.v.TestFuturePromiseExample[m - Finished...
+g[34m11:30:53.600[m [vert.x-eventloop-thread-0] DEBUG [35mc.e.v.TestFuturePromiseExample[m - Fail!
+^[34m11:30:53.689[m [Test worker] DEBUG [35mc.e.v.TestFuturePromiseExample[m - Started...
+_[34m11:30:53.691[m [Test worker] DEBUG [35mc.e.v.TestFuturePromiseExample[m - Finished...
+ç[34m11:30:54.204[m [vert.x-eventloop-thread-0] DEBUG [35mc.e.v.TestFuturePromiseExample[m - Converting to JsonObject: [Totally fine!!!]
+§[34m11:30:54.376[m [vert.x-eventloop-thread-0] DEBUG [35mc.e.v.TestFuturePromiseExample[m - Future done! [[{"wrapper":"Totally fine!!!"}]] of type [JsonArray]
+g[34m11:30:54.376[m [vert.x-eventloop-thread-0] DEBUG [35mc.e.v.TestFuturePromiseExample[m - Done!
+^[34m11:30:54.405[m [Test worker] DEBUG [35mc.e.v.TestFuturePromiseExample[m - Started...
+_[34m11:30:54.406[m [Test worker] DEBUG [35mc.e.v.TestFuturePromiseExample[m - Finished...
+~[34m11:30:54.920[m [vert.x-eventloop-thread-0] ERROR [35mc.e.v.TestFuturePromiseExample[m - Inside the Fail Future: [{}]
+,java.lang.RuntimeException: It just blowup
+|	at com.example.vertx_starter.TestFuturePromiseExample.lambda$futureFailure$2(TestFuturePromiseExample.java:51) ~[test/:?]
+o	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:952) [vertx-core-4.1.5.jar:4.1.5]
+o	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:919) [vertx-core-4.1.5.jar:4.1.5]
+e	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:50) [vertx-core-4.1.5.jar:4.1.5]
+\	at io.vertx.core.impl.ContextImpl.emit(ContextImpl.java:274) [vertx-core-4.1.5.jar:4.1.5]
+e	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:22) [vertx-core-4.1.5.jar:4.1.5]
+c	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:53) [vertx-core-4.1.5.jar:4.1.5]
+e	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:22) [vertx-core-4.1.5.jar:4.1.5]
+l	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:942) [vertx-core-4.1.5.jar:4.1.5]
+t	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+Å	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+ç	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+ï	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500) [netty-transport-4.1.68.Final.jar:4.1.68.Final]
+è	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+à	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+1	at java.lang.Thread.run(Thread.java:831) [?:?]
+k[34m11:30:55.011[m [vert.x-eventloop-thread-0] WARN  [35mc.e.v.TestFuturePromiseExample[m - NOT Done!
+{[34m11:30:55.155[m [vert.x-eventloop-thread-0] DEBUG [35mc.e.v.TestFuturePromiseExample[m - Create some other task...
+t[34m11:30:55.156[m [vert.x-eventloop-thread-0] DEBUG [35mc.e.v.TestFuturePromiseExample[m - Event more task...
+~[34m11:30:55.156[m [vert.x-eventloop-thread-0] DEBUG [35mc.e.v.TestFuturePromiseExample[m - Server started on port 10000
+x[34m11:30:55.690[m [vert.x-eventloop-thread-0] DEBUG [35mc.e.v.TestFuturePromiseExample[m - waiting to complete...
+^[34m11:30:55.736[m [Test worker] DEBUG [35mc.e.v.TestFuturePromiseExample[m - Started...
+_[34m11:30:55.737[m [Test worker] DEBUG [35mc.e.v.TestFuturePromiseExample[m - Finished...
+g[34m11:30:56.241[m [vert.x-eventloop-thread-0] DEBUG [35mc.e.v.TestFuturePromiseExample[m - Done!
+"HTTP server started on port 8888
